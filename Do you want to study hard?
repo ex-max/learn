@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+	int chose = 1;
+	printf("Do you want to stady hard?(1/0) :>\n");
+	scanf("%d", &chose);
+
+	if (chose == 1)
+	{
+		printf("You will success!\n");
+	}
+	else
+	{
+		printf("You're going to be loser!\n");
+	}
+	return 0;
+}
