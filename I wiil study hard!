@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+	int hour = 0;
+	printf("I will study hard!\n");
+	while (hour < 10000)
+	{
+		printf("Keep study time:%d\n",hour);
+		hour++;
+	}
+	if (hour >= 10000)
+	{
+		printf("Congratulations on finding a good job.\n");
+	}
+	return 0;
+}
