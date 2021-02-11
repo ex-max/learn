@@ -14,7 +14,7 @@ int main()
 //int main()
 //{
 //	int a = 10;
-//	int* p = &a;//*用来存放地址的变量—指针变量
+//	int* p = &a;//int*是p的类型，p是用来存放地址的变量—指针变量
 //	printf("%p\n",p);
 //	return 0;
 //}
