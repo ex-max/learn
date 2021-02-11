@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+//打印的是后来赋予的值
+int main()
+{
+	int a = 10;
+	int* p = &a;//取地址
+	*p = 20;//*—解引用操作符
+	printf("%d\n", a);
+	return 0;
+}
+
+//最后打印的是a的地址
+//int main()
+//{
+//	int a = 10;
+//	int* p = &a;
+//	printf("%p\n",p);//%p用来存放地址—指针变量
+//	return 0;
+//}
+
+
+//#define MAX 100
+//#define 定义标识符常量
+//也可以定义宏-带参数
+//int main()
+//{
+//	int a = MAX;
+//
+//	printf("a = %d\n", a);
+//
+//	return 0;
+//}
